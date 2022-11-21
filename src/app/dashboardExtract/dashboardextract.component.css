@@ -1,0 +1,135 @@
+.grid-container {
+    margin: 20px;
+  }
+  
+  .dashboard-card {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+  }
+  
+  .more-button {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+  }
+  
+  .dashboard-card-content {
+    text-align: center;
+  }
+  
+  
+  
+  
+  .titulo{
+    font-size: 24px;
+    padding: 10px 10px 0 10px;;
+  }
+  .cuerpo{
+    display: flex; 
+   
+  }
+  .pie{
+    background: #6699ff;
+    border-radius:0 0 15px 15px;
+    padding: 10px;
+    text-align:center;
+  }
+  .pie a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+  }
+  .pie a:after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    content: ""
+  }
+  
+  .tarjeta1{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    width:220px;
+    border: 1px solid lightgray;
+    box-shadow: 2px 2px 8px 4px #d3d3d3d1;
+    border-radius:15px;
+    font-family: sans-serif;
+    margin-top: 2rem;
+    margin-left: 1em;
+    margin-bottom: 1em,;
+    margin-right: 2em;
+    background-color: rgb(64, 243, 94);
+  }
+  
+  .tarjeta2{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    width:220px;
+    border: 1px solid lightgray;
+    box-shadow: 2px 2px 8px 4px #d3d3d3d1;
+    border-radius:15px;
+    font-family: sans-serif;
+    margin-top: 2rem;
+    margin-bottom: 1em,;
+    margin-right: 2em;
+    background-color:rgb(131, 131, 211);
+  }
+  
+  .tarjeta3{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    width:220px;
+    border: 1px solid lightgray;
+    box-shadow: 2px 2px 8px 4px #d3d3d3d1;
+    border-radius:15px;
+    font-family: sans-serif;
+    margin-top: 2rem;
+    margin-bottom: 1em,;
+    margin-right: 2em;
+    background-color: rgb(243, 87, 87);
+  }
+  
+  
+  .tarc {
+   text-align: center;
+   text-transform: capitalize;
+  }
+  
+  .vc{
+    justify-content: space-evenly;
+  }
+  
+  .tc{
+    margin-top: 5em;
+  }
+  .orien {
+    object-position: center;
+    margin-left: 200px;
+  }
+  
+  
+  .csd {
+    margin: 1em;
+    padding: auto;
+    margin-left: 2em;
+    object-position: center;
+    image-orientation: flip;
+  }
+  
+  
+  .sdf {
+    background-color: lightcyan;
+    font-style: normal;
+    text-decoration: solid;
+    margin-top: 5em;
+  }
+  

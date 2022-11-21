@@ -1,0 +1,33 @@
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: rgb(247, 243, 243);
+}
+.h-custom {
+height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}
+
+.coli{
+    forced-color-adjust: blanchedalmond;
+    }
+
+.prim{
+    font-size: medium;
+    font-style: initial;
+    font-variant: normal;
+        }
+.imag{
+    image-resolution: 100px;
+    width: 4cm;
+                }   
+
+     .imag2{
+    margin-top: 1em;
+                } 
